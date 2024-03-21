@@ -1,1 +1,7 @@
 # lotuss_playwright_scraper_
+
+Lotus's, formerly known as Tesco Lotus in Thailand and Tesco in Malaysia, is a retail chain operated by the Charoen Pokphand (CP) Group. It has a significant presence in Thailand and expanded its operations to Malaysia following the acquisition of Tesco Malaysia in 2020. The company is committed to offering high-quality products at affordable prices to its customers, aiming to make them feel "delighted every day" with their shopping experience. Lotus's places a strong emphasis on customer service, innovation, and convenience, including the use of mobile applications that provide useful information, discount coupons, and QR code labels on fresh food for traceability and nutritional information.
+
+I have scraped lotuss using playwright. The project consist of two scripts. First one is that it will open lotuss website and it will scrape the relative URLs of the products listed on website and put it into CSV file using Pandas. Second one is that it will load the all relative URLs using pandas, which are scraped in the first script, merge the Base URL and Relative URL and wil scape the Product_Title, Product_Price, Product_Image_URL, Product_Description, Product_URL and save into CSV file.
+
+Now the question is why the two scripts? Actually it was like an experiment, I wanted to see if it could speed up the scraping process because number of request are reduced in this case, also it could lessen the chances of being caught as BOT. 
